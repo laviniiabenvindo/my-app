@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import HelloWard from './components/HelloWord';
 
 function App() {
   const name = 'Lavínia emelly';
@@ -15,7 +16,8 @@ function App() {
       <h1>Alterando o JSX</h1>
       <p>Olá {newNema}</p>
       <p>Soma: {sum(2, 2)}</p>
-      <img src={url} alt="Minha imagem"></img>
+      <HelloWard />
+      {/* <img src={url} alt="Minha imagem"></img> */}
     </div>
   );
 }
