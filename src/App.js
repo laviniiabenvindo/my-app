@@ -6,7 +6,7 @@ import Form from './components/Form';
 function App() {
   return (
     <div className="App">
-      <h1>Testando Eventos</h1>
+      <h1>Métodos por props</h1>
       <Evento />
       <Form />
     </div>
